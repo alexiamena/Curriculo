@@ -5,14 +5,14 @@ box-sizing: border-box;
 
 }
 
-.container {background-color: aqua ;
+.container { background-color: rgb(248, 159, 214) ;
 max-width: 800px;
 margin: auto;
 height: 100vh;
 display: flex;
 }
 
-.sidebar{ background-color: aqua; 
+.sidebar{ background-color: rgb(226, 130, 189) ;
 width: 25%; 
 padding: 2%; 
 display: flex;
@@ -48,10 +48,11 @@ padding: 2%;}
 .card {border: 5px solid;
 padding: 2%;
 border-radius: 16px;
+margin-top: 20px;
 }
 
 .card-name {
-color: aqua;
+color: rgb(255, 255, 255);
 font-weight: bold;
 font-size: 20px;
 margin-bottom: 10px;
